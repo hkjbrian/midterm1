@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+  padding : 0;
+  font-family: '나눔 고딕','NanumGothic','맑은 고딕','Gothic';
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+body{
+  width: 960px;
+  /* (ㄴ) 하지못함 */
+  background-color: #E6E6E6;
+}
+div #page-wrapper{
+  background-color: #FFFFFF;
+  margin: 40px,0,40px,0;
+  padding: 10px,20px,10px,20px;
+  border-radius: 5px;
+  box-shadow: 0,2px,6px,rgba(100,100,100,0.3);
+}
+header #main-header{
+  padding: 40px,50px,40px,50px;
+}
+header .master-title{
+  font-size: 30px;
+  color: #181818;
+}
+header .master-description{
+  font-size: 15px;
+  color: #383838;
+  font-weight: 500;
+}
+nav #main-navigation{
+  border-top:1px;
+  border-bottom: 1px;
+  border-style: solid;
+  border-color: #C8C8C8;
+  margin: 0,0,20px,0;
+  height: 40px;
+}
+nav .outer-menu-item{
+  text-align: left;
+}
+nav .menu-title{
+  display: block;
+  height: 30px;
+  text-align: center;
+  padding: 5px,20px,5px,20px;
+  color: #000000;
+}
+nav .menu-title:hover{
+  background-color: #000000;
+  color: #FFFFFF;
+}
+nav .menu-title:active{
+  color: #FFFF00;
+}
+div #content{
+  overflow: hidden;
+}
+section #main-section{
+  width:710px;
+}
+aside #main-aside{
+  width: 200px;
+}
+section article{
+  padding: 0,10px,20px,10px;
+  border-bottom: 1px;
+  border-style: solid;
+  border-color: #C8C8C8;
+}
+section .article-header{
+  padding: 20px,0,20px,0;
+}
+section .article-title{
+  font-size: 25px;
+  padding: 0,0,10px,0;
+  font-weight: 500;
+}
+section .article-data{
+  font-size: 13px;
+}
+section .article-body{
+  font-size: 14px;
+}
+img[src="imgs/Sejong_mark.png"]{
+  width: 280px;
+  height: 280px;
+}
+img[src="imgs/Datascience.png"]{
+  width: 430px;
+  height: 280px;
+}
+aside .aside-list{
+  padding: 10px,0,30px,0;
+}
+aside h3{
+  font-size: 15px;
+  font-weight: 600;
+}
+aside a{
+  margin: 0,0,0,8px;
+  font-size: 13px;
+  color: #6C6C6C;
+}
+Footer{
+  font-size: 10px;
+  color: #666666;
+}
